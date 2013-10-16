@@ -18,7 +18,7 @@
   /* where is tester located */
   $base_url = '/gate/tester/';
    
-  setlocale(LC_ALL, "ru_RU", "ru_RU.UTF-8");;
+  setlocale(LC_ALL, "ru_RU.UTF-8");
   db_connect (config_get ('check-database'));
 
   /* Converting from Id's to readable names */
